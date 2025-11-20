@@ -10,7 +10,7 @@ This repository is designed to help you quickly test and validate StepSecurity W
 * **Secret Exfiltration Policy** - Blocks workflows where a non-default branch's workflow has been modified to access repository secrets 
 
 ## Setting up and Testing Policies
-The general flow to trigger these detections is as follows:
+The general flow to trigger these detections is as follows: 
 
 1. Set up a policy from the Workflow Run Policies tab on the StepSecurity dashboard for each policy type
 2. Trigger a workflow that fails for each respective policy type and observe the cancellation on the non-compliant workflow
@@ -63,7 +63,7 @@ The secret exfiltration policy blocks secret access on **non-default branches** 
 ![alt text](img/run-cancel.jpg)
  2. If the workflow was triggered by a PR, the PR will be commented with context on the cancellation and makes suggestions on next steps.
 ![alt text](img/workflow-pr.jpg)
- 3. On the StepSecurity dashboard, you can centrally manage all workflow runs in the **Workflow Run Policies → Policy Evaluations** section. Filter here by `Status: Blocked` to see blocked runs, and expand to see context on the block. 
+ 3. On the StepSecurity dashboard, you can centrally manage all workflow runs in the **Workflow Run Policies → Policy Evaluations** section. Filter here by `Status: Blocked` to see blocked runs, and expand to see context on the block.  
 ![alt text](img/block-dashboard.jpg)
 ![alt text](img/block-detail.jpg)
 
