@@ -63,7 +63,7 @@ The secret exfiltration policy blocks secret access on **non-default branches** 
 ![alt text](img/run-cancel.jpg)
  2. If the workflow was triggered by a PR, the PR will be commented with context on the cancellation and makes suggestions on next steps.
 ![alt text](img/workflow-pr.jpg)
- 3. On the StepSecurity dashboard, you can centrally manage all workflow runs in the **Workflow Run Policies → Policy Evaluations** section. Filter here by `Status: Blocked` to see blocked runs, and expand to see context on the block. 
+ 3. On the StepSecurity dashboard, you can centrally manage all workflow runs in the **Workflow Run Policies → Policy Evaluations** section. Filter here by `Status: Blocked` to see blocked runs, and expand to see context on the block.  
 ![alt text](img/block-dashboard.jpg)
 ![alt text](img/block-detail.jpg)
 
