@@ -10,7 +10,7 @@ This repository is designed to help you quickly test and validate StepSecurity W
 * **Secret Exfiltration Policy** - Blocks workflows where a non-default branch's workflow has been modified to access repository secrets 
 
 ## Setting up and Testing Policies
-The general flow to trigger these detections is as follows: 
+The general flow to trigger these detections is as follows:
 
 1. Set up a policy from the Workflow Run Policies tab on the StepSecurity dashboard for each policy type
 2. Trigger a workflow that fails for each respective policy type and observe the cancellation on the non-compliant workflow
